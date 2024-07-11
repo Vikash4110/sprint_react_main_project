@@ -1,0 +1,42 @@
+@media (max-width: 640px) {
+    .left-arrow {
+      left: 20%;
+      bottom: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .right-arrow {
+      right: 20%;
+      top: 50%;
+      transform: translateY(50%);
+    }
+  }
+  @media (max-width: 768px) {
+    .legacydot {
+      width: 18rem;
+      transform: translateY(-5rem) translateX(1rem);
+    }
+    .ipad-arrow {
+      transform: translateY(-4rem) translateX(2rem);
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .legacydot {
+      width: 20rem;
+      transform: translateY(-6rem) translateX(1rem);
+    }
+    .ipad-arrow {
+      transform: translateY(-6rem) translateX(6rem);
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .legacydot {
+      transform: translateY(-8rem) translateX(10rem);
+    }
+    .ipad-arrow {
+      transform: translateY(-6rem) translateX(16rem);
+    }
+  }
+  
